@@ -19,8 +19,6 @@ RUN \
   apt-get autoclean && \
   rm -rf /config/.cache /var/lib/apt/lists/* /var/tmp/* /tmp/*
 
-COPY /root /
-
 EXPOSE 3000
 
 # Comment or remove VOLUME for Railway deployment
